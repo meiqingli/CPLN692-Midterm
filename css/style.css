@@ -51,7 +51,7 @@ p.main {
 
 #next {
   position: absolute;
-  left: 200px;
+  left: 300px;
   top: 540px;
   background-color: #d6d4d4;
   padding: 5px 15px;
@@ -61,7 +61,7 @@ p.main {
 
 #previous {
   position: absolute;
-  left: 300px;
+  left: 200px;
   top: 540px;
   background-color: #d6d4d4;
   padding: 5px 15px;
