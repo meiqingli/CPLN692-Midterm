@@ -92,14 +92,14 @@ map.removeLayer(featureGroup);
  if (countPage == 1){
   myFilter = Filter1;
   streettype = "Urban Street I (High Speed)";
-  map.setZoom(13);
-  //map.panTo([37.797534,-122.469531]);
+  //map.setZoom(13);
+  map.setView([37.797534,-122.469531], 13);
   text = "driveways of very low density without parking. These streets are multilane divided, undivided or two-lane with shoulders. Speed limit for this type of streets usually ranges from 75 to 90 km/h. Since they are located in vary low density areas, there are very little pedestrian activity and roadside development.";
   document.getElementById("image").src="images/US1.png";
  }
  if (countPage == 2){
   myFilter = Filter2;
-  map.setZoom(12);
+  map.setView([37.7576793,-122.4576403], 12);
   streettype = "Urban Street II (Suburban)";
   text="driveways of low density without parking. These streets are multilane divided, undivided or two-lane with shoulders. Speed limit for this type of streets usually ranges from 65 to 75 km/h. Pedestrian activity is little, and there are often low to medium density roadside development. ";
   document.getElementById("image").src="images/US2.png";
